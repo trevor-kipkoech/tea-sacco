@@ -1,0 +1,218 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin-top: 0;
+     margin-bottom: 0;
+     margin-left: 0;
+     margin-right: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+body{
+    
+     height: auto;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.35rem;
+
+}
+.images{
+    margin-top: 2px;
+   padding: 20px;
+   margin-left: 120px;
+}
+
+.below{
+    height: 70px;
+}
+.menu-bar{
+    background-color: rgb(0,100, 0);
+    text-align: center;
+    font-family: sans-serif;
+
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style-type: none;
+    color: white;
+}
+.menu-bar ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+ .menu-bar ul li:hover{
+    background-color: #2bab0d;
+    border-radius: 3px;
+
+}
+h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    font-size: 2rem;
+    text-align: center;
+    text-decoration: underline;
+    color:green;
+}
+.menu-bar.fa{
+    margin-right: 8px;
+}
+.submenu1{
+    display: none;
+}
+.menu-bar ul li:hover .submenu1{
+    display: block;
+    position: absolute;
+    background: rgb(0, 100, 0) ;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.menu-bar ul li:hover .submenu1 ul{
+    display: block;
+    margin: 10px;
+}
+.menu-bar ul li:hover .submenu1 ul li{
+    width: 140px;
+    padding: 10px;
+    border-bottom:  1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.menu-bar ul li:hover .submenu1 ul li:last-child{
+    border-bottom: none;
+}
+.menu-bar ul li:hover .submenu1 ul li a:hover{
+    color: #b2ff00;
+}
+
+h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    font-size: 2rem;
+    text-align: center;
+    text-decoration: underline;
+    color:green;
+    margin-top: 50px;
+
+}
+.mission {
+    text-indent: 105px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 2px;
+    margin-top: 20px;
+    margin-right: 100px;
+    margin-left: 100px;
+
+}
+
+.vision{
+    text-indent: 105px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 2px;
+    margin-top: 10px;
+    margin-right: 100px;
+    margin-left: 100px;
+
+}
+.team{
+    text-indent: 105px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 2px;
+    margin-top: 10px;
+    margin-right: 100px;
+    margin-left: 100px;
+
+}
+.team-img{
+    margin-top: 10px;
+    padding: 3px;
+    margin-left: 140px;
+    margin-right: 20px;
+    
+}
+button{
+    background-color: rgb(255, 187, 0);
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.content{
+    margin-left: 90px;
+    margin-right: 90px;
+    align-items: center;
+    text-indent: 2px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif   ;
+}
+.text{
+    margin-top: 20px;
+}
+.down{
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif   ;
+     margin-bottom: auto;
+    background: linear-gradient(to right, green,rgba(0, 0, 0, 0.959));
+    color: #fff;
+    border-top-left-radius: 120px;
+    font-size: 13px;
+    line-height: 10px;
+
+}
+.row{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif   ;
+
+}
+.col{
+    flex-basis: 25%;
+    padding: 25px;
+}
+.logo{
+    width: 80px;
+    margin-bottom: 30px;
+
+}
+.col h3{
+    width: fit-content;
+    margin-bottom: 40px;
+  
+}
+.email-id{
+    width: fit-content;
+    border-bottom:  1px solid #ccc;
+    margin: 20px 0;
+}
+ul li{
+    list-style: none;
+    margin-bottom: 12px;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+form{
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 50px;
+    
+}
+.Ltd{
+    float: right;
+}   
+.temec{
+    float: left;
+}
